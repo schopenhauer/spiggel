@@ -1,8 +1,8 @@
 # spiggel
 
-<img src="https://github.com/schopenhauer/spiggel/raw/master/public/hokusai.jpg" height="200" align="right">
+This is a basic mirroring proxy app written in Sinatra. Ready to be deployed in the cloud.
 
-This is a basic mirroring proxy app written in Sinatra.
+<img src="https://github.com/schopenhauer/spiggel/raw/master/public/hokusai.jpg" height="200">
 
 ## Usage
 
