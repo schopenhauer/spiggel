@@ -2,6 +2,8 @@
 
 This is a basic mirroring proxy app written in Sinatra.
 
+<img src="">
+
 ## Usage
 
 First, change the `CUSTOM_URL` environment variable to the website you would like to mirror.
