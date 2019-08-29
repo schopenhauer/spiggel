@@ -40,7 +40,7 @@ PLATFORMS
 DEPENDENCIES
   better_errors
   binding_of_caller
-  bundler (~> 2.0.1)
+  bundler (~> 2.0.2)
   dotenv
   puma
   sinatra

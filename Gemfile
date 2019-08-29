@@ -6,7 +6,7 @@ group :sinatra do
   gem 'sinatra-contrib'
 end
 
-gem 'bundler', '~> 2.0.1'
+gem 'bundler', '~> 2.0.2'
 gem 'better_errors'
 gem 'binding_of_caller'
 gem 'dotenv'
