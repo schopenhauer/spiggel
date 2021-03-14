@@ -2,7 +2,7 @@
 
 This is a basic mirroring proxy app written in Sinatra. Ready to be deployed in the cloud.
 
-<img src="https://github.com/schopenhauer/spiggel/raw/master/public/hokusai.jpg" height="200">
+<img src="https://github.com/schopenhauer/spiggel/raw/main/public/hokusai.jpg" height="200">
 
 ## Usage
 
