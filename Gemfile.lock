@@ -1,33 +1,46 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    dotenv (2.8.1)
-    mustermann (3.0.0)
+    base64 (0.3.0)
+    dotenv (3.1.8)
+    logger (1.7.0)
+    mustermann (3.0.4)
       ruby2_keywords (~> 0.0.1)
-    nio4r (2.5.8)
-    puma (6.0.2)
+    nio4r (2.7.4)
+    puma (6.6.1)
       nio4r (~> 2.0)
-    rack (2.2.6.2)
-    rack-protection (3.0.5)
-      rack
+    rack (3.2.0)
+    rack-protection (4.1.1)
+      base64 (>= 0.1.0)
+      logger (>= 1.6.0)
+      rack (>= 3.0.0, < 4)
+    rack-session (2.1.1)
+      base64 (>= 0.1.0)
+      rack (>= 3.0.0)
+    rackup (2.2.1)
+      rack (>= 3)
     ruby2_keywords (0.0.5)
-    sinatra (3.0.5)
+    sinatra (4.1.1)
+      logger (>= 1.6.0)
       mustermann (~> 3.0)
-      rack (~> 2.2, >= 2.2.4)
-      rack-protection (= 3.0.5)
+      rack (>= 3.0.0, < 4)
+      rack-protection (= 4.1.1)
+      rack-session (>= 2.0.0, < 3)
       tilt (~> 2.0)
-    tilt (2.0.11)
+    tilt (2.6.1)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   dotenv
+  nio4r
   puma
+  rackup (~> 2.2)
   sinatra
 
 RUBY VERSION
-   ruby 3.2.1p31
+   ruby 3.4.5p51
 
 BUNDLED WITH
    2.4.6

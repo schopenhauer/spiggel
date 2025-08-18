@@ -4,7 +4,7 @@ require 'uri'
 require 'dotenv'
 Dotenv.load
 
-CUSTOM_URL = ENV['CUSTOM_URL'] || 'https://www.katsushikahokusai.org'
+CUSTOM_URL = ENV['CUSTOM_URL'] || 'https://www.rtl.lu'
 
 helpers do
   def mirror_request(path, query_string, headers)
