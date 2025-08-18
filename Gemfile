@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
-ruby '3.2.1'
+ruby '3.4.5'
 
 gem 'sinatra'
-gem 'dotenv'
+gem 'dotenv', require: 'dotenv/load'
 gem 'puma'
