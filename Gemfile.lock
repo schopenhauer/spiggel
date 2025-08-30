@@ -32,7 +32,6 @@ PLATFORMS
 
 DEPENDENCIES
   dotenv
-  nio4r
   puma
   sinatra
 
